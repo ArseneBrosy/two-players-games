@@ -4,8 +4,19 @@
 
 body {
     margin: 0;
+    height: fit-content;
 }
 
 .fullscreen {
     width: 100%;
+}
+
+#play-tournament {
+    width: 620px;
+    height: 161px;
+    background: url("../img/play-tournament.png");
+    position: absolute;
+    left: 50%;
+    bottom: 130px;
+    transform: translateX(-50%);
 }
